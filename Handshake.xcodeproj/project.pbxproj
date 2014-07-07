@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C19A4B81195F877E004B1A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4B80195F877E004B1A7A /* Foundation.framework */; };
+		C19A4B83195F877E004B1A7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4B82195F877E004B1A7A /* CoreGraphics.framework */; };
+		C19A4B85195F877E004B1A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4B84195F877E004B1A7A /* UIKit.framework */; };
+		C19A4B8B195F877E004B1A7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C19A4B89195F877E004B1A7A /* InfoPlist.strings */; };
+		C19A4B8D195F877E004B1A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4B8C195F877E004B1A7A /* main.m */; };
+		C19A4B91195F877E004B1A7A /* HandshakeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4B90195F877E004B1A7A /* HandshakeAppDelegate.m */; };
+		C19A4B94195F877E004B1A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19A4B92195F877E004B1A7A /* Main.storyboard */; };
+		C19A4B97195F877E004B1A7A /* HandshakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4B96195F877E004B1A7A /* HandshakeViewController.m */; };
+		C19A4B99195F877E004B1A7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19A4B98195F877E004B1A7A /* Images.xcassets */; };
+		C19A4BA0195F877E004B1A7A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4B9F195F877E004B1A7A /* XCTest.framework */; };
+		C19A4BA1195F877E004B1A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4B80195F877E004B1A7A /* Foundation.framework */; };
+		C19A4BA2195F877E004B1A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4B84195F877E004B1A7A /* UIKit.framework */; };
+		C19A4BAA195F877F004B1A7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C19A4BA8195F877F004B1A7A /* InfoPlist.strings */; };
+		C19A4BAC195F877F004B1A7A /* HandshakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4BAB195F877F004B1A7A /* HandshakeTests.m */; };
+		C19A4BB6195F882C004B1A7A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4BB5195F882C004B1A7A /* CoreAudio.framework */; };
+		C19A4BB8195FB3AF004B1A7A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4BB7195FB3AF004B1A7A /* AVFoundation.framework */; };
+		C19A4BBB1960BB3B004B1A7A /* ToneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4BBA1960BB3B004B1A7A /* ToneGenerator.m */; };
+		C19A4BBD19639332004B1A7A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19A4BBC19639332004B1A7A /* Accelerate.framework */; };
+		C19A4BC019688E55004B1A7A /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4BBF19688E55004B1A7A /* Notes.m */; };
+		C19A4BC31968DB74004B1A7A /* IpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4BC21968DB74004B1A7A /* IpHelper.m */; };
+		C19A4BC61968DD42004B1A7A /* ToneReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4BC51968DD42004B1A7A /* ToneReceiver.m */; };
+		C19A4BC91968E4AD004B1A7A /* ToneTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A4BC81968E4AD004B1A7A /* ToneTranslator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19A4BA3195F877E004B1A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19A4B75195F877E004B1A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19A4B7C195F877E004B1A7A;
+			remoteInfo = Handshake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C19A4B7D195F877E004B1A7A /* Handshake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handshake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19A4B80195F877E004B1A7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C19A4B82195F877E004B1A7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C19A4B84195F877E004B1A7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C19A4B88195F877E004B1A7A /* Handshake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handshake-Info.plist"; sourceTree = "<group>"; };
+		C19A4B8A195F877E004B1A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C19A4B8C195F877E004B1A7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C19A4B8E195F877E004B1A7A /* Handshake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handshake-Prefix.pch"; sourceTree = "<group>"; };
+		C19A4B8F195F877E004B1A7A /* HandshakeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandshakeAppDelegate.h; sourceTree = "<group>"; };
+		C19A4B90195F877E004B1A7A /* HandshakeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandshakeAppDelegate.m; sourceTree = "<group>"; };
+		C19A4B93195F877E004B1A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C19A4B95195F877E004B1A7A /* HandshakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandshakeViewController.h; sourceTree = "<group>"; };
+		C19A4B96195F877E004B1A7A /* HandshakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandshakeViewController.m; sourceTree = "<group>"; };
+		C19A4B98195F877E004B1A7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C19A4B9E195F877E004B1A7A /* HandshakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandshakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19A4B9F195F877E004B1A7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C19A4BA7195F877F004B1A7A /* HandshakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandshakeTests-Info.plist"; sourceTree = "<group>"; };
+		C19A4BA9195F877F004B1A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C19A4BAB195F877F004B1A7A /* HandshakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandshakeTests.m; sourceTree = "<group>"; };
+		C19A4BB5195F882C004B1A7A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C19A4BB7195FB3AF004B1A7A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C19A4BB91960BB3B004B1A7A /* ToneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneGenerator.h; sourceTree = "<group>"; };
+		C19A4BBA1960BB3B004B1A7A /* ToneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneGenerator.m; sourceTree = "<group>"; };
+		C19A4BBC19639332004B1A7A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C19A4BBE19688E55004B1A7A /* Notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		C19A4BBF19688E55004B1A7A /* Notes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
+		C19A4BC11968DB74004B1A7A /* IpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IpHelper.h; path = ../IpHelper.h; sourceTree = "<group>"; };
+		C19A4BC21968DB74004B1A7A /* IpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IpHelper.m; path = ../IpHelper.m; sourceTree = "<group>"; };
+		C19A4BC41968DD42004B1A7A /* ToneReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneReceiver.h; sourceTree = "<group>"; };
+		C19A4BC51968DD42004B1A7A /* ToneReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneReceiver.m; sourceTree = "<group>"; };
+		C19A4BC71968E4AD004B1A7A /* ToneTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneTranslator.h; sourceTree = "<group>"; };
+		C19A4BC81968E4AD004B1A7A /* ToneTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneTranslator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19A4B7A195F877E004B1A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A4BBD19639332004B1A7A /* Accelerate.framework in Frameworks */,
+				C19A4BB8195FB3AF004B1A7A /* AVFoundation.framework in Frameworks */,
+				C19A4BB6195F882C004B1A7A /* CoreAudio.framework in Frameworks */,
+				C19A4B83195F877E004B1A7A /* CoreGraphics.framework in Frameworks */,
+				C19A4B85195F877E004B1A7A /* UIKit.framework in Frameworks */,
+				C19A4B81195F877E004B1A7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A4B9B195F877E004B1A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A4BA0195F877E004B1A7A /* XCTest.framework in Frameworks */,
+				C19A4BA2195F877E004B1A7A /* UIKit.framework in Frameworks */,
+				C19A4BA1195F877E004B1A7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C19A4B74195F877E004B1A7A = {
+			isa = PBXGroup;
+			children = (
+				C19A4B86195F877E004B1A7A /* Handshake */,
+				C19A4BA5195F877E004B1A7A /* HandshakeTests */,
+				C19A4B7F195F877E004B1A7A /* Frameworks */,
+				C19A4B7E195F877E004B1A7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19A4B7E195F877E004B1A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19A4B7D195F877E004B1A7A /* Handshake.app */,
+				C19A4B9E195F877E004B1A7A /* HandshakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19A4B7F195F877E004B1A7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19A4BBC19639332004B1A7A /* Accelerate.framework */,
+				C19A4BB7195FB3AF004B1A7A /* AVFoundation.framework */,
+				C19A4BB5195F882C004B1A7A /* CoreAudio.framework */,
+				C19A4B80195F877E004B1A7A /* Foundation.framework */,
+				C19A4B82195F877E004B1A7A /* CoreGraphics.framework */,
+				C19A4B84195F877E004B1A7A /* UIKit.framework */,
+				C19A4B9F195F877E004B1A7A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C19A4B86195F877E004B1A7A /* Handshake */ = {
+			isa = PBXGroup;
+			children = (
+				C19A4B8F195F877E004B1A7A /* HandshakeAppDelegate.h */,
+				C19A4B90195F877E004B1A7A /* HandshakeAppDelegate.m */,
+				C19A4B95195F877E004B1A7A /* HandshakeViewController.h */,
+				C19A4B96195F877E004B1A7A /* HandshakeViewController.m */,
+				C19A4B98195F877E004B1A7A /* Images.xcassets */,
+				C19A4BC11968DB74004B1A7A /* IpHelper.h */,
+				C19A4BC21968DB74004B1A7A /* IpHelper.m */,
+				C19A4B92195F877E004B1A7A /* Main.storyboard */,
+				C19A4BBE19688E55004B1A7A /* Notes.h */,
+				C19A4BBF19688E55004B1A7A /* Notes.m */,
+				C19A4B87195F877E004B1A7A /* Supporting Files */,
+				C19A4BB91960BB3B004B1A7A /* ToneGenerator.h */,
+				C19A4BBA1960BB3B004B1A7A /* ToneGenerator.m */,
+				C19A4BC41968DD42004B1A7A /* ToneReceiver.h */,
+				C19A4BC51968DD42004B1A7A /* ToneReceiver.m */,
+				C19A4BC71968E4AD004B1A7A /* ToneTranslator.h */,
+				C19A4BC81968E4AD004B1A7A /* ToneTranslator.m */,
+			);
+			path = Handshake;
+			sourceTree = "<group>";
+		};
+		C19A4B87195F877E004B1A7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C19A4B88195F877E004B1A7A /* Handshake-Info.plist */,
+				C19A4B89195F877E004B1A7A /* InfoPlist.strings */,
+				C19A4B8C195F877E004B1A7A /* main.m */,
+				C19A4B8E195F877E004B1A7A /* Handshake-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C19A4BA5195F877E004B1A7A /* HandshakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19A4BAB195F877F004B1A7A /* HandshakeTests.m */,
+				C19A4BA6195F877F004B1A7A /* Supporting Files */,
+			);
+			path = HandshakeTests;
+			sourceTree = "<group>";
+		};
+		C19A4BA6195F877F004B1A7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C19A4BA7195F877F004B1A7A /* HandshakeTests-Info.plist */,
+				C19A4BA8195F877F004B1A7A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19A4B7C195F877E004B1A7A /* Handshake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19A4BAF195F877F004B1A7A /* Build configuration list for PBXNativeTarget "Handshake" */;
+			buildPhases = (
+				C19A4B79195F877E004B1A7A /* Sources */,
+				C19A4B7A195F877E004B1A7A /* Frameworks */,
+				C19A4B7B195F877E004B1A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Handshake;
+			productName = Handshake;
+			productReference = C19A4B7D195F877E004B1A7A /* Handshake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19A4B9D195F877E004B1A7A /* HandshakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19A4BB2195F877F004B1A7A /* Build configuration list for PBXNativeTarget "HandshakeTests" */;
+			buildPhases = (
+				C19A4B9A195F877E004B1A7A /* Sources */,
+				C19A4B9B195F877E004B1A7A /* Frameworks */,
+				C19A4B9C195F877E004B1A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19A4BA4195F877E004B1A7A /* PBXTargetDependency */,
+			);
+			name = HandshakeTests;
+			productName = HandshakeTests;
+			productReference = C19A4B9E195F877E004B1A7A /* HandshakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19A4B75195F877E004B1A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Handshake;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Mercieca";
+				TargetAttributes = {
+					C19A4B7C195F877E004B1A7A = {
+						DevelopmentTeam = 4S52AFNYYG;
+					};
+					C19A4B9D195F877E004B1A7A = {
+						TestTargetID = C19A4B7C195F877E004B1A7A;
+					};
+				};
+			};
+			buildConfigurationList = C19A4B78195F877E004B1A7A /* Build configuration list for PBXProject "Handshake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19A4B74195F877E004B1A7A;
+			productRefGroup = C19A4B7E195F877E004B1A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19A4B7C195F877E004B1A7A /* Handshake */,
+				C19A4B9D195F877E004B1A7A /* HandshakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19A4B7B195F877E004B1A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A4B99195F877E004B1A7A /* Images.xcassets in Resources */,
+				C19A4B8B195F877E004B1A7A /* InfoPlist.strings in Resources */,
+				C19A4B94195F877E004B1A7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A4B9C195F877E004B1A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A4BAA195F877F004B1A7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19A4B79195F877E004B1A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A4BC31968DB74004B1A7A /* IpHelper.m in Sources */,
+				C19A4B97195F877E004B1A7A /* HandshakeViewController.m in Sources */,
+				C19A4BC61968DD42004B1A7A /* ToneReceiver.m in Sources */,
+				C19A4BC91968E4AD004B1A7A /* ToneTranslator.m in Sources */,
+				C19A4BC019688E55004B1A7A /* Notes.m in Sources */,
+				C19A4B91195F877E004B1A7A /* HandshakeAppDelegate.m in Sources */,
+				C19A4B8D195F877E004B1A7A /* main.m in Sources */,
+				C19A4BBB1960BB3B004B1A7A /* ToneGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A4B9A195F877E004B1A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A4BAC195F877F004B1A7A /* HandshakeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19A4BA4195F877E004B1A7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19A4B7C195F877E004B1A7A /* Handshake */;
+			targetProxy = C19A4BA3195F877E004B1A7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C19A4B89195F877E004B1A7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19A4B8A195F877E004B1A7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C19A4B92195F877E004B1A7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19A4B93195F877E004B1A7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C19A4BA8195F877F004B1A7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19A4BA9195F877F004B1A7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C19A4BAD195F877F004B1A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C19A4BAE195F877F004B1A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19A4BB0195F877F004B1A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handshake/Handshake-Prefix.pch";
+				INFOPLIST_FILE = "Handshake/Handshake-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C19A4BB1195F877F004B1A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handshake/Handshake-Prefix.pch";
+				INFOPLIST_FILE = "Handshake/Handshake-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C19A4BB3195F877F004B1A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Handshake.app/Handshake";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handshake/Handshake-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HandshakeTests/HandshakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C19A4BB4195F877F004B1A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Handshake.app/Handshake";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handshake/Handshake-Prefix.pch";
+				INFOPLIST_FILE = "HandshakeTests/HandshakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19A4B78195F877E004B1A7A /* Build configuration list for PBXProject "Handshake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A4BAD195F877F004B1A7A /* Debug */,
+				C19A4BAE195F877F004B1A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19A4BAF195F877F004B1A7A /* Build configuration list for PBXNativeTarget "Handshake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A4BB0195F877F004B1A7A /* Debug */,
+				C19A4BB1195F877F004B1A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19A4BB2195F877F004B1A7A /* Build configuration list for PBXNativeTarget "HandshakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A4BB3195F877F004B1A7A /* Debug */,
+				C19A4BB4195F877F004B1A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C19A4B75195F877E004B1A7A /* Project object */;
+}
