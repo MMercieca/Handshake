@@ -2,7 +2,7 @@
 
 A hackathon project trying to exchange information between devices with an ultrasonic tone.
 
-I read that the (Chromecast used ultrasonic pairing to connect with devices not on the same wi-fi network)[https://www.engadget.com/2014-06-27-chromecast-ultrasonic-pairing.html].
+I read that the [Chromecast used ultrasonic pairing to connect with devices not on the same wi-fi network](https://www.engadget.com/2014-06-27-chromecast-ultrasonic-pairing.html).
 This was my attempt at getting two iOS devices to exhcange a short string of information.
 
 ## Challenges
