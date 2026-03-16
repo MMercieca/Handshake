@@ -159,7 +159,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
          }
       }
       
-      NSNumber* toSend = [[NSNumber alloc] initWithInt:maxIndex];
+      NSNumber *toSend = [[NSNumber alloc] initWithInt:maxIndex];
       
       if (self.delegate)
       {
@@ -167,6 +167,12 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
       }
        
       //NSLog(@"Char: %c at %d", (char)(maxIndex - self.baseBin), maxIndex);
+       
+      vDSP_destroy_fftsetup(setup);
+      free(samples);
+      free(window);
+      free(A.imagp);
+      free(A.realp);
    }
 }
 
